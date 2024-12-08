@@ -1,111 +1,49 @@
 Llama OCR
-Llama OCR is a web-based tool built with Streamlit, leveraging Groq's Llama 3.2 Vision model for advanced Optical Character Recognition (OCR). The tool extracts structured text from images and displays the content in a clear, readable markdown format.
-
-Designed for simplicity and efficiency, Llama OCR is perfect for transforming any image with readable text into well-organized output for further use or analysis.
+Llama OCR is a web-based application built with Streamlit that extracts structured text from images using Groq's Llama 3.2 Vision model. It allows users to upload images and retrieve extracted text in a clean, markdown format.
 
 Features
-Image Upload: Upload images in PNG, JPG, or JPEG format.
-Text Extraction: Automatically extracts and formats the readable text in structured markdown.
-Clear Results: Reset the app to upload a new image or start fresh.
-User-Friendly Interface: Built with Streamlit for a smooth, interactive user experience.
+Upload Images: Supports PNG, JPG, and JPEG formats.
+OCR Text Extraction: Extracts and formats text into markdown.
+Clear Results: Reset the app with the "Clear" button.
 Installation
-Follow the instructions below to set up Llama OCR on your local machine:
-
-1. Clone the repository
-Begin by cloning the repository to your local system:
-
+1. Clone the Repository
 bash
-
+Copy code
 git clone https://github.com/yourusername/llama-ocr.git
 cd llama-ocr
-2. Create a Virtual Environment
-It is recommended to use a virtual environment to manage dependencies:
-
+2. Create and Activate a Virtual Environment
 bash
-
+Copy code
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+source venv/bin/activate  # For Windows: venv\Scripts\activate
 3. Install Dependencies
-Install the required Python libraries using the following command:
-
 bash
-
+Copy code
 pip install -r requirements.txt
 4. Set Up Environment Variables
-You need to configure your Groq API key to use the text extraction functionality.
-
-Create a .env file in the root directory of the project with the following content:
+Create a .env file and add your Groq API key:
 
 makefile
-
+Copy code
 GROQ_API_KEY=your_groq_api_key_here
 5. Run the Application
-Once everything is set up, you can run the Streamlit app:
-
 bash
-
+Copy code
 streamlit run app.py
-This will start a local server and open the application in your default web browser.
-
 Usage
-Upload an Image
-Navigate to the Upload Image section in the sidebar.
-Click "Choose an image..." and select an image file from your local system. Supported formats: PNG, JPG, and JPEG.
-Extract Text
-Once the image is uploaded, click the "Extract Text 🔍" button.
-The app will process the image and extract the readable text using Groq's Llama 3.2 Vision model.
-View Extracted Text
-After the processing is complete, the extracted text will be displayed in a structured format in the main content area.
-The text will be organized using Markdown formatting (headings, lists, etc.) for readability.
-Clear Results
-If you wish to reset the app and upload a new image, click the "Clear 🗑️" button.
-This will delete the current results and allow for a fresh start.
-Example Output
-Once the image is processed, the extracted text might look something like this:
-
-markdown
-
-# Invoice Details
-
-## Total Amount Due
-- **$320.50**
-
-## Payment Methods Accepted
-- Credit Card
-- PayPal
-- Bank Transfer
-
-## Itemized Breakdown
-1. Item 1: $100.00
-2. Item 2: $150.00
-3. Item 3: $70.50
-Project Structure
-The project follows a simple directory structure:
-
-bash
-
-.
-├── app.py                # Main Streamlit app file
-├── .env                  # Environment variables (Groq API Key)
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
-Contributing
-We welcome contributions! To contribute to this project, follow these steps:
-
-Fork the repository.
-Clone your fork and create a new branch.
-Make your changes and commit them with a clear, concise commit message.
-Push your changes to your forked repository.
-Submit a pull request describing your changes.
+Upload an image from the sidebar.
+Click "Extract Text 🔍" to process the image and extract text.
+View the extracted text in markdown format.
+Click "Clear 🗑️" to reset the app.
+Build
+Clone the repository to your local machine.
+Install Python dependencies via pip install -r requirements.txt.
+Run the app with streamlit run app.py to start building or testing locally.
 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
 
-Acknowledgments
-Groq for providing the Llama 3.2 Vision model for advanced OCR capabilities.
-Streamlit for enabling the creation of interactive web applications with minimal effort.
-Pillow for handling image processing tasks.
 Contact
-For any questions or issues, feel free to contact us through the project's GitHub repository or email at your_email@example.com.
+For questions or issues, contact your_email@example.com.
 
 Enjoy using Llama OCR! 🦙
 
