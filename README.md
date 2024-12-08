@@ -21,6 +21,14 @@ Unlock the power of **Optical Character Recognition (OCR)** using **Llama 3.2 Vi
 
 ---
 
+## **OCR Example**
+
+Here’s an example of how the OCR works. Upload your image, and watch the text extracted below:
+
+![OCR Example](ocr.PNG)
+
+---
+
 ## **License**
 
 MIT License – Feel free to use, modify, and contribute!
