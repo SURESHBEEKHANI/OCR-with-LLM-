@@ -4,6 +4,12 @@ Unlock the power of **Optical Character Recognition (OCR)** using **Llama 3.2 Vi
 
 ---
 
+## **About**
+
+**Llama OCR** is an advanced web application that utilizes Groq's **Llama 3.2 Vision** model to perform accurate Optical Character Recognition (OCR) on images. It extracts readable text and converts it into a clean, structured Markdown format, making it easier to read and process.
+
+---
+
 ## **Key Features**
 
 - **Instant Image Upload**: Supports **PNG**, **JPG**, and **JPEG** formats.
@@ -21,14 +27,40 @@ Unlock the power of **Optical Character Recognition (OCR)** using **Llama 3.2 Vi
 
 ---
 
-## **OCR UI**
+## **OCR Example**
 
 Here’s an example of how the OCR works. Upload your image, and watch the text extracted below:
 
-![OCR UI](ocr.PNG)
+![OCR Example](ocr.PNG)
 
 ---
 
 ## **License**
 
 MIT License – Feel free to use, modify, and contribute!
+
+---
+
+## **Website**
+
+For more details and to see the app in action, visit the [Hugging Face Space for Llama OCR](https://huggingface.co/spaces/SURESHBEEKHANI/Optical_Character_Recognition_with_llama-3.2-11b-vision).
+
+---
+
+## **Topics**
+
+OCR AI Machine Learning Computer Vision Groq Llama 3.2 Vision
+
+---
+
+## **Releases**
+
+You can check the latest releases in the [Releases Section](https://github.com/SURESHBEEKHANI/Optical_Character_Recognition_with_llama-3.2-11b-vision/releases).
+
+---
+
+## **Packages**
+
+For Python dependencies, use the `requirements.txt` file to install the necessary packages:
+```bash
+pip install -r requirements.txt
