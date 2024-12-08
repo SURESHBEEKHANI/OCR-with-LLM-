@@ -19,3 +19,6 @@ Llama OCR is a web-based application built with **Streamlit** that extracts stru
 ```bash
 https://github.com/SURESHBEEKHANI/Optical_Character_Recognition_with_llama-3.2-11b-vision.git
 cd llama-ocr
+
+### 1.2. Create and Activate a Virtual Environment
+
