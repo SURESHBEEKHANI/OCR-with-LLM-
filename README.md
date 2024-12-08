@@ -1,4 +1,5 @@
-Llama OCR
+## Llama OCR
+
 Llama OCR is a web-based application built with Streamlit that extracts structured text from images using Groq's Llama 3.2 Vision model. It allows users to upload images and retrieve extracted text in a clean, markdown format.
 
 Features
